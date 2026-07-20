@@ -42,3 +42,19 @@ exploit/**/*.cpio
 exploit/**/bzImage
 exploit/**/exploit
 exploit/**/bin/exploit
+
+# Tier 2 (Android) environment
+tier2/android/
+tier2/**/aarch64-linux-musl-cross/
+tier2/aarch64-linux-musl-cross.tgz
+tier2/rootfs/
+tier2/initramfs.cpio
+
+# Runtime logs and process IDs
+*.log
+*.pid
+.gdb_history
+__pycache__/
+
+# Tooling and external repos
+tier2/tooling/pwndbg/
